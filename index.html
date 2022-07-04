@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>GAME</title>
+  </head>
+  <body>
+    <div class="game-container">
+      <div class="upper-content">
+        <button id="different-weapon">Different Weapon</button>
+        <h1 class="header">MY GAME</h1>
+        <p class="current-weapon">
+          Current Weapon is: <span id="weapon">💩</span>
+        </p>
+      </div>
+      <div class="monster-container">
+        <div class="wave">WAVE: <span id="wave-number">1</span></div>
+        <div class="monster" id="monster">👽</div>
+        <div class="health-bar">
+          <div id="health-bar-value" class="health-bar-value"></div>
+          <div i="fill" class="health-bar-fill"></div>
+        </div>
+      </div>
+      <button id="next">NEXT</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
