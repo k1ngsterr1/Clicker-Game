@@ -39,9 +39,6 @@ let mobValue = monster.textContent;
 let nextBtn = document.getElementById("next");
 nextBtn.disabled = true;
 
-let restartBtn = document.getElementById("restart");
-restartBtn.style.display = "none";
-
 let damage = "";
 
 // Change Weapons Function
@@ -324,13 +321,6 @@ function nextMob() {
 }
 
 // Restart Function
-
-function restartGame() {
-  if (monster.textContent == "GAME-OVER") {
-    nextBtn.style.display = "none";
-    restartBtn.style;
-  }
-}
 
 // End Game Function
 
